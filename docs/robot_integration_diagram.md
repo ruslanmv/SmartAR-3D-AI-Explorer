@@ -8,16 +8,16 @@ the **robot hardware**, **RobotIntegration**, and other modules in
 flowchart TB
 
     subgraph Robot Hardware & Sensors
-        A(Physical Robot<br>Motors, Sensors,<br>Camera, etc.)
+        A[Physical Robot<br>Motors, Sensors,<br>Camera, etc.]
     end
 
     subgraph Framework
-        B(RobotIntegration<br>(robot_integration.py))
-        C(ObjectDetection<br>(object_detection.py))
-        D(ObjectRecognition<br>(object_recognition.py))
-        E(RobotNavigation<br>(robot_navigation.py))
-        F(LLMIntegration<br>(llm_integration.py))
-        G(Building Model<br>(ingestion.py))
+        B[RobotIntegration<br>robot_integration.py]
+        C[ObjectDetection<br>object_detection.py]
+        D[ObjectRecognition<br>object_recognition.py]
+        E[RobotNavigation<br>robot_navigation.py]
+        F[LLMIntegration<br>llm_integration.py]
+        G[Building Model<br>ingestion.py]
     end
 
     A -->|sensor data| B
@@ -29,4 +29,5 @@ flowchart TB
 
     D -->|reference geometry| G
     E -->|reference layout| G
+
 ```

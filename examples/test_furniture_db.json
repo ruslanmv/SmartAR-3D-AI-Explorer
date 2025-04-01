@@ -1,0 +1,38 @@
+{
+    "chair": {
+      "name": "chair",
+      "type": "furniture",
+      "description": "A seat for one person, typically with four legs and a back."
+    },
+    "table": {
+      "name": "table",
+      "type": "furniture",
+      "description": "A piece of furniture with a flat top and one or more legs."
+    },
+    "fridge": {
+      "name": "fridge",
+      "type": "appliance",
+      "description": "A refrigerator used to keep food and drinks cool."
+    },
+    "door": {
+      "name": "door",
+      "type": "structure",
+      "description": "A hinged or sliding barrier allowing entrance to or exit from an enclosure."
+    },
+    "lamp": {
+      "name": "lamp",
+      "type": "lighting",
+      "description": "A device for giving light, with an electric bulb or other light source."
+    },
+    "book": {
+      "name": "book",
+      "type": "misc",
+      "description": "A written or printed work consisting of pages glued or sewn together."
+    },
+    "person": {
+      "name": "person",
+      "type": "human",
+      "description": "A human individual."
+    }
+  }
+  

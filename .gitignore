@@ -1,0 +1,73 @@
+# .gitignore
+# 
+# Common Python-based .gitignore patterns.
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+*.dll
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+.build/
+.venv.bak/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+# Usually contains build artifacts, plus random things you don't want to commit.
+*.spec
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Mac OS / Windows files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor directories
+.vscode/
+.idea/
+
+# If using Jupyter notebooks
+.ipynb_checkpoints/
+
+# If using coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# If using test caching
+.pytest_cache/
+
+# If using mypy
+.mypy_cache/
+
+# If using local config or secrets
+*.local
+*.secret
+
+# If logging outputs
+logs/
+*.log

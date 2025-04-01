@@ -28,7 +28,7 @@ This framework allows both **people** and **robots** to share a common perceptio
 
 ## Overview
 
-**SmartAR-3D-Robot-Explorer** is designed to help **two main entities** explore and understand a building or environment:
+**SmartAR-3D-AI-Explorer** is designed to help **two main entities** explore and understand a building or environment:
 
 1. **People**:  
    - Wear AR smart glasses (like Meta Quest 3 or other AR-capable devices).  

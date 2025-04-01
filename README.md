@@ -1,4 +1,4 @@
-# SmartAR-3D-Robot-Explorer
+# SmartAR-3D-AI-Explorer
 
 A **Python-based** framework for **3D environment exploration**, combining:
 
@@ -85,7 +85,7 @@ By sharing the **same** data structures for 3D building information and recogniz
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/ruslanmv/SmartAR-3D-Robot-Explorer.git
+git clone https://github.com/ruslanmv/SmartAR-3D-AI-Explorer.git
 cd SmartAR-3D-Robot-Explorer
 ```
 
